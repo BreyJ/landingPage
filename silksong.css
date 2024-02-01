@@ -1,0 +1,164 @@
+body {
+  background-color:black;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2, p {
+  font-family: roboto;
+  color: white;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+/** Header and links **/
+
+.top-web {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/landingPage/images/header.jpg);
+  background-size: 100%;
+  background-position: cover;
+}
+
+.top-web {
+  display: flex;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  margin: 70px;
+}
+
+.header-left img:hover{
+  cursor: pointer;
+}
+
+.header-center {
+  flex: 1;
+}
+
+.header-right {
+  width: 400px;
+  display: flex;
+}
+
+.header-right img:hover {
+  cursor: pointer;
+}
+
+.header-right img {
+  margin: 20px; 
+}
+
+.header-logo-cherry {
+  width: 95px;
+  height: 75px;
+}
+
+.header-logo-right {
+  width: 55px;
+  height: 55px;
+}
+
+.hollow-logo {
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+/** Content of the web **/
+
+.main-tittle {
+  display: flex;
+  justify-content: center;
+}
+
+.tittle {
+  color: white;
+  font-family: roboto;
+  font-size: 80px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.content-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
+}
+
+.content-img {
+  width: 80%;
+  min-width: 200px;
+  padding: 80px;
+  height: auto;
+  margin: auto;
+}
+
+.content-text {
+  padding: 80px;
+}
+
+.stores {
+margin: 3%;
+}
+
+.stores img:hover {
+  cursor: pointer;
+}
+
+.stores1, .stores2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.companies {
+  width: 30%;
+}
+
+.cherry-footer-div {
+  display: flex;
+  justify-content: center;
+}
+
+.cherry-footer {
+  width: 30%;
+  margin-bottom: 65px;
+  margin-top: 65px;
+}
+
+.link-cherry-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.team-cherry-site {
+  background-color: white;
+  color: rgb(238, 72, 72);
+  border: none;
+  padding: 30px;
+  font-family: roboto;
+  font-size: 27px;
+  font-weight: 400;
+  width: 19%;
+  margin-bottom: 65px;
+}
+
+.team-cherry-site:hover {
+  cursor: pointer;
+  background-color: rgb(255, 199, 199);
+  transition: 0.2s;
+}
